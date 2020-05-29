@@ -8,7 +8,7 @@ http.createServer(function (req, res) {
         'Content-Type': 'text/plain'
     });
     //end the request with some text
-    res.end('Hello World');
+    res.end('This is my first lab Hello World');
     //listen on port 3000
 }).listen(3000);
 console.log('Server listening on port 3000');
